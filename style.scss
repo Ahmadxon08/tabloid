@@ -1717,6 +1717,7 @@ body {
     }
   }
 }
+
 //tovar pages////////
 body {
   main {
@@ -1928,6 +1929,7 @@ body {
         .show_img {
           display: flex;
           align-items: center;
+          gap: 8px;
           .index {
             display: flex;
             flex-direction: column;
@@ -1938,6 +1940,15 @@ body {
               height: 78px;
             }
           }
+          .show {
+            width: 504px;
+            height: 446px;
+            padding: 20px;
+          }
+          .show img {
+            width: 100%;
+            height: 100%;
+          }
         }
       }
     }
@@ -1947,7 +1958,8 @@ body {
 // catalogies page/////
 
 body {
-  main {padding-bottom: 40px;
+  main {
+    padding-bottom: 40px;
     .foods {
       .food_content {
         display: flex;

@@ -4,5 +4,5 @@ const show = document.querySelector(".show img");
 
 index = addEventListener("click", (event) =>{
   let imgUrl = event.target.src;
-  imgUrl && (show.scr = imgUrl);
+  imgUrl && (show.src = imgUrl);
 });

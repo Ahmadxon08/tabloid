@@ -1864,7 +1864,7 @@ body {
             padding: 16px;
             background: #ff6633;
             cursor: pointer;
-           
+
             a {
               display: flex;
               align-items: center;
@@ -1898,7 +1898,7 @@ body {
               display: flex;
               align-items: center;
               gap: 40px;
-              
+
               span {
                 display: flex;
                 align-items: start;
@@ -1930,13 +1930,66 @@ body {
             display: flex;
             flex-direction: column;
             gap: 24px;
-            img{
+            img {
               background-color: #fff;
               width: 40px;
               height: 78px;
             }
           }
         }
+      }
+    }
+  }
+}
+
+// catalogies page/////
+
+body {
+  main {
+    .foods {
+      .food_content {
+        display: flex;
+        align-items: start;
+        .toval_link {
+          display: flex;
+          align-items: start;
+          gap: 16px;
+          a {
+            font-family: Rubik;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #414141;
+          }
+        }
+      }
+    }
+    .meals {
+      display: flex;
+      padding-top: 24px;
+      .meal_head h1 {
+        font-family: Rubik;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 96px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #414141;
+      }
+      .meal_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        img {
+          border-radius: 4px;
+          background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+          cursor: pointer;
+        }
+       
       }
     }
   }

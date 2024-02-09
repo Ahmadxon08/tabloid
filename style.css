@@ -1881,4 +1881,48 @@ body main .photo .tovar_both .show_img .index img {
   background-color: #fff;
   width: 40px;
   height: 78px;
+}
+
+body main .foods .food_content {
+  display: flex;
+  align-items: start;
+}
+body main .foods .food_content .toval_link {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+}
+body main .foods .food_content .toval_link a {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #414141;
+}
+body main .meals {
+  display: flex;
+  padding-top: 24px;
+}
+body main .meals .meal_head h1 {
+  font-family: Rubik;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #414141;
+}
+body main .meals .meal_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+body main .meals .meal_content img {
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

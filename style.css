@@ -787,7 +787,7 @@ body footer {
   padding: 24px;
   margin-bottom: 100px;
   background: #f9f4e2;
-  background-image: url(./img/bg_footer.png);
+  background-image: url(./img/bg_1.png);
   height: 126px;
 }
 body footer .footer_content {
@@ -1613,7 +1613,7 @@ body #backtop {
 }
 
 body main {
-  margin-top: 100px;
+  margin-top: 70px;
   background-color: rgb(244, 243, 224);
 }
 body main .cards_sec {
@@ -1671,6 +1671,9 @@ body main .cards_sec .card_content .cards .card:hover {
   box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.1019607843);
 }
 
+body main {
+  background: #f9f4e2 !important;
+}
 body main .tovar .toval_link {
   display: flex;
   align-items: center;
@@ -1737,6 +1740,7 @@ body main .tovar .tovar_content .tovar_head .start .tovar_img_text {
 }
 body main .photo {
   display: flex;
+  background: #f9f4e2 !important;
 }
 body main .photo .tovar_both {
   display: flex;
@@ -1883,6 +1887,9 @@ body main .photo .tovar_both .show_img .index img {
   height: 78px;
 }
 
+body main {
+  padding-bottom: 40px;
+}
 body main .foods .food_content {
   display: flex;
   align-items: start;
@@ -1923,6 +1930,11 @@ body main .meals .meal_content {
 }
 body main .meals .meal_content img {
   border-radius: 4px;
-  background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+  background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70c05b 82.81%);
+  cursor: pointer;
+}
+body main .meals .meal_content img:hover {
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70c05b 82.81%);
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

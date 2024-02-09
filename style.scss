@@ -807,7 +807,7 @@ body {
     padding: 24px;
     margin-bottom: 100px;
     background: #f9f4e2;
-    background-image: url(./img/bg_footer.png);
+    background-image: url(./img/bg_1.png);
     height: 126px;
     .footer_content {
       display: flex;
@@ -1658,7 +1658,7 @@ body {
 // catalogies///
 body {
   main {
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: rgb(244, 243, 224);
     .cards_sec {
       display: flex;
@@ -1717,9 +1717,10 @@ body {
     }
   }
 }
-//tovar/////
+//tovar pages////////
 body {
   main {
+    background: #f9f4e2 !important;
     .tovar {
       .toval_link {
         display: flex;
@@ -1789,6 +1790,7 @@ body {
     }
     .photo {
       display: flex;
+      background: #f9f4e2 !important;
       .tovar_both {
         display: flex;
         align-items: center;
@@ -1945,7 +1947,7 @@ body {
 // catalogies page/////
 
 body {
-  main {
+  main {padding-bottom: 40px;
     .foods {
       .food_content {
         display: flex;
@@ -1986,10 +1988,22 @@ body {
         gap: 30px;
         img {
           border-radius: 4px;
-          background: linear-gradient(180deg, rgba(112, 192, 91, 0) 0%, #70C05B 82.81%);
+          background: linear-gradient(
+            180deg,
+            rgba(112, 192, 91, 0) 0%,
+            #70c05b 82.81%
+          );
           cursor: pointer;
         }
-       
+        img:hover {
+          border-radius: 4px;
+          background: linear-gradient(
+            180deg,
+            rgba(112, 192, 91, 0) 0%,
+            #70c05b 82.81%
+          );
+          cursor: pointer;
+        }
       }
     }
   }

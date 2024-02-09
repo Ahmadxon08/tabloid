@@ -2,7 +2,7 @@ const index = document.querySelector(".index");
 
 const show = document.querySelector(".show img");
 
-index = addEventListener("click", function (event) {
+index = addEventListener("click", (event) =>{
   let imgUrl = event.target.src;
   imgUrl && (show.scr = imgUrl);
 });

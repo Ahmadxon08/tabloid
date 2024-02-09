@@ -1934,22 +1934,22 @@ body {
             display: flex;
             flex-direction: column;
             gap: 24px;
+            background-color: #fff;
             img {
-              background-color: #fff;
               width: 40px;
               height: 78px;
               cursor: pointer;
-              transition: all .3s;
+              transition: all 0.3s;
             }
-            img:hover{
+            img:hover {
               box-shadow: 2px 4px 8px 0 rgba(213, 205, 205, 0.786);
-
             }
           }
           .show {
             width: 504px;
-            height: 446px;
+            height: 436px;
             padding: 20px;
+            background-color: #fff;
           }
           .show img {
             width: 100%;

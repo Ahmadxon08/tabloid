@@ -1881,9 +1881,9 @@ body main .photo .tovar_both .show_img .index {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  background-color: #fff;
 }
 body main .photo .tovar_both .show_img .index img {
-  background-color: #fff;
   width: 40px;
   height: 78px;
   cursor: pointer;
@@ -1894,8 +1894,9 @@ body main .photo .tovar_both .show_img .index img:hover {
 }
 body main .photo .tovar_both .show_img .show {
   width: 504px;
-  height: 446px;
+  height: 436px;
   padding: 20px;
+  background-color: #fff;
 }
 body main .photo .tovar_both .show_img .show img {
   width: 100%;

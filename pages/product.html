@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="./../style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <nav class="nav">
+            <div class="nav_logo">
+              <img src="../img/logo_1.png" alt="logo" />
+              <span>СЕВЕРЯНОЧКA</span>
+            </div>
+            <div class="nav_over">
+              <div class="nav_cat">
+                <div class="nav_menu" id="openToggle">
+                  <div class="span"></div>
+                  <div class="span"></div>
+                  <div class="span"></div>
+                </div>
+                <p>Каталог</p>
+              </div>
+  
+              <div class="nav_search">
+                <input
+                  type="search"
+                  name="search"
+                  id="name"
+                  placeholder="Найти товар"
+                />
+                <img src="../img/search.png" alt="search" />
+              </div>
+            </div>
+            <div class="nav_lists">
+              <div class="nav_item">
+                <img src="../img/heart.png" alt="" />
+                <span>Избранное</span>
+              </div>
+              <div class="nav_item">
+                <img src="../img/box.png" alt="" />
+                <span>продукты</span>
+              </div>
+              <div class="nav_item">
+                <img src="../img/shopping-cart.png" alt="" />
+                <span>Корзина</span>
+              </div>
+              <div class="avatar">
+                <img src="../img/avatar.png" alt="avatar" />
+                <a class="open" href=""><p>Алексей</p></a>
+                <a href="">
+                  <div class="arrow firsth"></div>
+                  <div class="arrow second"></div>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+        <div class="modal">
+            <div class="modal_content">
+              <div class="modal_x">
+                <a href=""><img src="../img/modal_X.png" alt="exit" /></a>
+              </div>
+              <div class="modal_boxs">
+                <h1>Вход</h1>
+                <label>
+                  Телефон
+                  <input
+                    type="number"
+                    name="name"
+                    id="tel"
+                    placeholder="+7 912"
+                    required
+                  />
+                </label>
+                <div class="left"><a href="">Вход</a></div>
+    
+                <div class="reg">
+                  <a class="firth" href="">Регистрация</a>
+                  <a href="">Забыли пароль?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalogs">
+            <div class="container">
+              <div class="catalog" id="openCategory">
+                <div class="categories">
+                  <div class="blocks">
+                    <div class="block">
+                      <a href="./pages/tovar.html">Молоко, сыр, яйцо</a>
+                      <a href="./pages/products.html">Хлеб</a>
+                      <a href="">Фрукты и овощи</a>
+                      <a href="">Замороженные продукты</a>
+                    </div>
+                    <div class="block">
+                      <a href="">Напитки</a>
+                      <a href="">Кондитерские изделия</a>
+                      <a href="">Чай, кофе</a>
+                    </div>
+                  </div>
+                  <div class="blocks">
+                    <div class="block">
+                      <a href="">Бакалея</a>
+                      <a href="">Здоровое питание</a>
+                      <a href="">Зоотовары</a>
+                    </div>
+                    <div class="block">
+                      <a href="">Непродовольственные товары</a>
+                      <a href="">Детское питание</a>
+                      <a href="">Мясо, птица, колбаса</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="seen_products">
+            <div class="container">
+                <div class="seen">
+                    <h1>Product details</h1>
+                    <a href="./products.html">go back</a>
+
+                </div>
+
+
+                <div class="seen_product">
+                    
+                </div>
+            </div>
+          </section>
+    </main>
+
+    <footer>
+        <div class="container">
+          <div class="footer_content">
+            <div class="foot_link_1">
+              <div class="logo">
+                <a href="#"><img src="/img/logo_2.png" alt="logo" /></a>
+              </div>
+              <div class="logo_link">
+                <a  href="">О компании </a>
+                <a  href="">Контакты</a>
+                <a class="btn" href="">Вакансии</a>
+                <a href="">Статьи</a>
+                <a href=""> Политика обработки персональных данных</a>
+              </div>
+  
+            </div>
+            <div class="foot_link_2">
+              <div class="social">
+                <div class="social_link">
+                  <a href=""><img src="../img/instagram.png" alt="" /></a>
+                  <a href=""><img src="../img/vkontakte.png" alt="" /></a>
+  
+                  <a href=""><img src="../img/facebook.png" alt="" /></a>
+                  <a href=""> <img src="../img/ok.png" alt="" /></a>
+                </div>
+              </div>
+              <div class="tell">
+                <img src="../img/phone.png" alt="call me" />
+                <span>8 800 777 33 33</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_end">
+            <p>Дизайн</p>
+            <img src="../img/logo-zas.png" alt="" />
+          </div>
+        </div>
+      </footer> 
+<script src="../js/product.js"></script>
+
+<script src="../js/main.js"></script>
+<script src="../js/modal.js"></script>
+<script src="../js/category.js"></script>
+</body>
+</html>

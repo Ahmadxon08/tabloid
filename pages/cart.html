@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products page</title>
-<link rel="stylesheet" href="./../style.css">
+    <title>cart page</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <header>
@@ -60,41 +60,39 @@
       </div>
     </header>
     <main>
-      
-  
-  <div class="modal">
-    <div class="modal_content">
-      <div class="modal_x">
-        <a href=""><img src="../img/modal_X.png" alt="exit" /></a>
-      </div>
-      <div class="modal_boxs">
-        <h1>Вход</h1>
-        <label>
-          Телефон
-          <input
-            type="number"
-            name="name"
-            id="tel"
-            placeholder="+7 912"
-            required
-          />
-        </label>
-        <div class="left"> <a href="">Вход</a></div>
-       
-        <div class="reg">
-          <a class="firth" href="">Регистрация</a>
-          <a href="">Забыли пароль?</a>
+      <div class="modal">
+        <div class="modal_content">
+          <div class="modal_x">
+            <a href=""><img src="../img/modal_X.png" alt="exit" /></a>
+          </div>
+          <div class="modal_boxs">
+            <h1>Вход</h1>
+            <label>
+              Телефон
+              <input
+                type="number"
+                name="name"
+                id="tel"
+                placeholder="+7 912"
+                required
+              />
+            </label>
+            <div class="left"><a href="">Вход</a></div>
+
+            <div class="reg">
+              <a class="firth" href="">Регистрация</a>
+              <a href="">Забыли пароль?</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
       <div class="catalogs">
         <div class="container">
           <div class="catalog" id="openCategory">
             <div class="categories">
               <div class="blocks">
                 <div class="block">
-                  <a href="./tovar.html">Молоко, сыр, яйцо</a>
+                  <a href="">Молоко, сыр, яйцо</a>
                   <a href="">Хлеб</a>
                   <a href="">Фрукты и овощи</a>
                   <a href="">Замороженные продукты</a>
@@ -121,14 +119,60 @@
           </div>
         </div>
       </div>
-      <section class="cards_sec">
+      <section class="cart_section">
         <div class="container">
-          <div class="card_content">
-            <div class="card_head">
-              <h1>Все продукты</h1>
+          <div class="head">
+            <div class="head_link">
+              <a href="./../index.html">Главная</a>
+              <img src="./../img/right_arrow.png" alt="arrow" />
+              <a href="">Корзина</a>
             </div>
-            <div class="cards">
-       
+
+            <div class="h1">
+              <h1>Корзина</h1>
+              <div class="link_back">
+              
+                <a href="./product.html">go back</a>
+
+            </div>
+            
+            </div>
+          </div>
+
+          <div class="carddd">
+            <div class="cart"></div>
+            <div class="itog">
+              <div class="toggle">
+                <div class="img_tog">
+                  <img src="./../img/catalogies/Toggle.png" alt="toogle" />
+                  <span>Списать 200 ₽ </span>
+                </div>
+                <span>На карте накоплено 200 ₽ </span>
+              </div>
+              <div class="line"></div>
+              <div class="money">
+                <span>3 товара</span>
+                <h1>258,10 ₽</h1>
+              </div>
+              <div class="money">
+                <span>3 товара</span>
+                <h2>-8,01 ₽</h2>
+              </div>
+              <div class="line"></div>
+              <div class="money">
+                <span>Итог</span>
+                <h3>250,09 ₽</h3>
+              </div>
+              <div class="smile">
+                <img src="./../img/catalogies/smile.png" alt="smile" />
+                <p>Вы получяете 100 бонусов</p>
+              </div>
+              <div class="smile">
+               <span>Минимальная сумма заказа 1000р</span>
+              </div>
+              <div class="smile">
+               <a href="">Оформить заказ</a>
+              </div>
             </div>
           </div>
         </div>
@@ -140,7 +184,7 @@
         <div class="footer_content">
           <div class="foot_link_1">
             <div class="logo">
-              <a href="#"><img src="../img/logo_2.png" alt="logo" /></a>
+              <a href="#"><img src="/img/logo_2.png" alt="logo" /></a>
             </div>
             <div class="logo_link">
               <a href="">О компании </a>
@@ -172,9 +216,10 @@
         </div>
       </div>
     </footer>
-    <script src="./../js/main.js"></script>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/modal.js"></script>
-    <script src="../js/products.js"></script>
     <script src="../js/category.js"></script>
   </body>
 </html>

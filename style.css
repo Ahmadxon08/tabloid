@@ -821,7 +821,6 @@ body footer {
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  margin-bottom: 100px;
   background: #f9f4e2;
   background-image: url(./img/bg_1.png);
   height: 126px;
@@ -2209,6 +2208,7 @@ body main .cart_section .carddd .cart .card .card-content .changes .idcheck {
   gap: 12px;
   background-color: #409a2a;
   border-radius: 4px;
+  color: #fff;
 }
 body main .cart_section .carddd .cart .card .card-content .changes .idcheck a {
   color: #fff;

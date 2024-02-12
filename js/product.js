@@ -575,6 +575,8 @@ const products = [
     ],
   },
 ];
+
+
 const seenProduct = document.querySelector(".seen_product");
 
 const product = JSON.parse(localStorage.getItem("product"));
@@ -582,11 +584,11 @@ const product = JSON.parse(localStorage.getItem("product"));
 seenProduct.innerHTML = `
          <div class="card">
 
-           <img src="${product.images[1]} alt="${product.name}""
+           <img src="${product.images[0]} alt="${product.name}""
         <div class="card-content">
            <h1>${product.name}</h1>
            <p>${product.category}</p>
-            <h1>${product.description}</h1>
+            <h2>${product.description}</h2>
             <span>${product.price}$</span>
           <a href="./cart.html" onclick="addToCart(${product.id})">Add to cart</a>
             </div>

@@ -2073,11 +2073,21 @@ body main .seen_products .seen_product .card .card-content {
   align-items: center;
   flex-direction: column;
   width: 400px;
+  gap: 10px;
+}
+body main .seen_products .seen_product .card .card-content p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #70c05b;
 }
 body main .seen_products .seen_product .card .card-content h1 {
   font-family: Rubik;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 700;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
@@ -2085,12 +2095,36 @@ body main .seen_products .seen_product .card .card-content h1 {
 }
 body main .seen_products .seen_product .card .card-content h2 {
   font-family: Rubik;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
   color: #414141;
+}
+body main .seen_products .seen_product .card .card-content span {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #414141;
+}
+body main .seen_products .seen_product .card .card-content a {
+  display: flex;
+  border-radius: 3px;
+  padding: 6px;
+  color: white;
+  align-items: center;
+  background: #70c05b;
+  transition: all 0.4s;
+  border: 1px solid #70c05b;
+}
+body main .seen_products .seen_product .card .card-content a:hover {
+  background-color: #fff;
+  color: #409a2a;
+  border: 1px solid #409a2a;
 }
 
 body main .cart_section {

@@ -581,13 +581,15 @@ const seenProduct = document.querySelector(".seen_product");
 
 const product = JSON.parse(localStorage.getItem("product"));
 
+function displayCards(products) {}
+
 seenProduct.innerHTML = `
          <div class="card">
 
-           <img src="${product.images[0]} alt="${product.name}""
+           <img src="${product.images[1]} alt="${product.name}">
         <div class="card-content">
+        <p>${product.category}</p>
            <h1>${product.name}</h1>
-           <p>${product.category}</p>
             <h2>${product.description}</h2>
             <span>${product.price}$</span>
           <a href="./cart.html" onclick="addToCart(${product.id})">Add to cart</a>
